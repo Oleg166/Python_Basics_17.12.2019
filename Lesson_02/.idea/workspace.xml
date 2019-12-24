@@ -27,30 +27,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
-  <component name="RunManager" selected="Python.tema_2_2_dz">
-    <configuration name="tema_2_1_dz" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Lesson_02" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tema_2_1_dz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.tema_2_6_dz">
     <configuration name="tema_2_2_dz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lesson_02" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,13 +114,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tema_2_6_dz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lesson_02" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tema_2_6_dz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tema_2_6_dz" />
         <item itemvalue="Python.tema_2_2_dz" />
         <item itemvalue="Python.tema_2_5_dz" />
         <item itemvalue="Python.tema_2_4_dz" />
         <item itemvalue="Python.tema_2_3_dz" />
-        <item itemvalue="Python.tema_2_1_dz" />
       </list>
     </recent_temporary>
   </component>
@@ -192,29 +192,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="133" key="#tema_2_2_dz/0.0.1920.1040@0.0.1920.1040" timestamp="1577179600512" />
-    <state width="1362" height="259" key="GridCell.Tab.0.bottom" timestamp="1577179961110">
+    <state width="1717" height="211" key="GridCell.Tab.0.bottom" timestamp="1577182545015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577179961110" />
-    <state width="1362" height="259" key="GridCell.Tab.0.center" timestamp="1577179961110">
+    <state width="1717" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577182545015" />
+    <state width="1717" height="211" key="GridCell.Tab.0.center" timestamp="1577182545015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577179961110" />
-    <state width="1362" height="259" key="GridCell.Tab.0.left" timestamp="1577179961110">
+    <state width="1717" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577182545015" />
+    <state width="1717" height="211" key="GridCell.Tab.0.left" timestamp="1577182545015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577179961110" />
-    <state width="1362" height="259" key="GridCell.Tab.0.right" timestamp="1577179961110">
+    <state width="1717" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577182545015" />
+    <state width="1717" height="211" key="GridCell.Tab.0.right" timestamp="1577182545015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1362" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577179961110" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1577179773970">
+    <state width="1717" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577182545015" />
+    <state width="1362" height="216" key="GridCell.Tab.1.bottom" timestamp="1577180900802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577179773970" />
-    <state x="661" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577179586704">
+    <state width="1362" height="216" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577180900802" />
+    <state width="1362" height="216" key="GridCell.Tab.1.center" timestamp="1577180900802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577179586704" />
+    <state width="1362" height="216" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577180900802" />
+    <state width="1362" height="216" key="GridCell.Tab.1.left" timestamp="1577180900802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="216" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577180900802" />
+    <state width="1362" height="216" key="GridCell.Tab.1.right" timestamp="1577180900802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="216" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577180900802" />
+    <state x="812" y="184" key="SettingsEditor" timestamp="1577181205307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="812" y="184" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577181205307" />
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577181021813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577181021813" />
   </component>
 </project>
