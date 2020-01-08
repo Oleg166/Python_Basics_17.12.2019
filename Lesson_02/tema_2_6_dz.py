@@ -17,3 +17,32 @@
 “количество”: [5, 2, 7],
 “ед”: [“шт.”]
 }"""
+answer = None
+my_list = []
+my_tuple = ()
+while answer != 'no':
+    answer = input("Будем вводить данные товара (yes/no): ")
+    if answer == 'yes':
+        number_products = int(input("Введите номер товара: "))
+        name_products = input("Введите название товара: ")
+        price_products = int(input("Введите цену товара: "))
+        count_products = int(input("Введите количество товара: "))
+        unit_products = input("Введите единицу измерения товара: ")
+        my_tuple = (number_products, {"название": name_products, "цена": price_products, "количество": count_products, "ед": unit_products})
+        my_list.append(my_tuple)
+print("\n","Готовая структура: ", my_list, "\n")
+
+my_list_1 = []
+my_list_2 = []
+my_list_3 = []
+my_list_4 = []
+for i in my_list:
+    j = i[1]
+    my_list_1.append(j.get('название'))
+    my_list_2.append(j.get('цена'))
+    my_list_3.append(j.get('количество'))
+    my_list_4.append(j.get('ед'))
+set_4 = set(my_list_4)
+my_list_4 = list(set_4)
+my_dict = dict(название=my_list_1, цена=my_list_2, количество=my_list_3, ед=my_list_4)
+print("Аналитика о товарах: ", my_dict)
