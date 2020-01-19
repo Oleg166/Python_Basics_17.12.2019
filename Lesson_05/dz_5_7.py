@@ -11,3 +11,35 @@
 [{"firm_1": 5000, "firm_2": 3000, "firm_3": 1000}, {"average_profit": 2000}]
 
 Подсказка: использовать менеджеры контекста."""
+import json
+
+data_from_file = []  # список содержащий данные, полученные из файла
+prib = 0  # переменная для расчета прибыли или убытков
+result = 0  # переменная для расчета средней прибыли
+b_1 = []  # список, содержащий названия фирм с прибылью
+b = []  # список со значениями прибылей, соответствующих фирмам из списка b_1
+c_1 = []  # список, содержащий названия фирм с убытками
+c = []  # список со значениями убытков, соответствующих фирмам из списка c_1
+with open("question_5_7.txt") as f_obj:
+    for line in f_obj:
+        data_from_file = line.split()
+        prib = int(data_from_file[2]) - int(data_from_file[3])
+        if prib >= 0:
+            b_1.append(data_from_file[0])
+            b.append(prib)
+        else:
+            c_1.append(data_from_file[0])
+            c.append(abs(prib))
+my_dict_1 = dict(zip(b_1, b))
+my_dict_2 = dict(zip(c_1, c))
+
+for j in b:
+    result = result + j
+result = int(result/len(b))
+my_dict_3 = dict(average_profit=result)
+
+my_list = [my_dict_1, my_dict_2, my_dict_3]
+print(my_list)
+
+with open("answer_5_7.json", "w") as write_f:
+    json.dump(my_list, write_f)
