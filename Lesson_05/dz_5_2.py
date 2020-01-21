@@ -11,6 +11,10 @@ for j in content:
     print(f"В {i}-ой строке {len(b)} слов.")
     i += 1
 
-
+"""with open("text_1.txt") as f:
+    lines = f.readlines()
+    print('Количество строк: ', len(lines))
+    for num_line, line in enumerate(lines, start=1):
+        print('{} строка содержит - {} слов'.format(num_line, len(line.split())))"""
 
 
