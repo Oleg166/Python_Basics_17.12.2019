@@ -12,10 +12,10 @@ import time
 # print("two")
 # itertools
 class TrafficLight:
-    def __init__(self, name):
-        self.wid = name
-    def __color(self):
+    __color = "цвет"
+    def running(self):
+        pass
 
 
-svetofor_1 = TrafficLight("Светофор_1")
+
 
