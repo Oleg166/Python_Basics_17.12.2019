@@ -7,15 +7,24 @@
 завершать скрипт.
 """
 import time
-# print("one")
-# time.sleep(2)
-# print("two")
-# itertools
+from itertools import cycle
+
+
 class TrafficLight:
-    __color = "цвет"
+    __color = "мигающий желтый"
     def running(self):
-        pass
+        for el in range(0, 10):
+            __color = "красный"
+            print("горит красный")
+            time.sleep(7)
+            __color = "желтый"
+            print("горит желтый")
+            time.sleep(2)
+            __color = "зеленый"
+            print("горит зеленый")
+            time.sleep(5)
 
-
+svetofor = TrafficLight()
+print(svetofor.running())
 
 

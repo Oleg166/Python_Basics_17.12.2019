@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b65b708d-d649-49b8-a7e0-8e6e2d298944" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,20 +26,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson_03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson_06" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.tema_2_6_dz">
     <configuration name="tema_2_2_dz" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -158,6 +145,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -193,6 +192,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="133" key="#tema_2_2_dz/0.0.1920.1040@0.0.1920.1040" timestamp="1577179600512" />
+    <state x="766" y="421" key="FileChooserDialogImpl" timestamp="1579848849601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="421" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579848849601" />
     <state width="1717" height="211" key="GridCell.Tab.0.bottom" timestamp="1577182545015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,9 +232,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="184" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577181205307" />
-    <state x="661" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1577181021813">
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1579848828496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577181021813" />
+    <state x="661" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579848828496" />
   </component>
 </project>
