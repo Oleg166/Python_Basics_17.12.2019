@@ -10,21 +10,35 @@ import time
 from itertools import cycle
 
 
-class TrafficLight:
-    __color = "мигающий желтый"
-    def running(self):
-        for el in range(0, 10):
-            __color = "красный"
-            print("горит красный")
+class TrafficLight():
+    def __init__(self):
+        self.__color = None
+    def running(self, color):
+        if color == 'red' and (self.__color == 'green' or self.__color == None):
+            self.__color = color
+            print('горит красный')
             time.sleep(7)
-            __color = "желтый"
-            print("горит желтый")
+        elif color == 'yellow' and self.__color == 'red':
+            self.__color = color
+            print('горит желтый')
             time.sleep(2)
-            __color = "зеленый"
-            print("горит зеленый")
+        elif color == 'green' and self.__color == 'yellow':
+            self.__color = color
+            print('горит зеленый')
             time.sleep(5)
-
-svetofor = TrafficLight()
-print(svetofor.running())
-
-
+        else:
+            print('Ошибка последовательности')
+a = TrafficLight()
+a.running('red')
+a.running('yellow')
+a.running('green')
+a.running('red')
+a.running('yellow')
+a.running('green')
+a.running("yellow")
+"""
+c = 0
+for el in cycle(print(TrafficLight())):
+    if c > 2:
+        break
+    c += 1"""

@@ -29,7 +29,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.dz_6_2">
+  <component name="RunManager" selected="Python.dz_6_1">
+    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lesson_06" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/123.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dz_6_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lesson_06" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +93,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="dz_6_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lesson_06" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dz_6_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="r_06_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lesson_06" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,8 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dz_6_2" />
         <item itemvalue="Python.dz_6_1" />
+        <item itemvalue="Python.123" />
+        <item itemvalue="Python.dz_6_3" />
+        <item itemvalue="Python.dz_6_2" />
         <item itemvalue="Python.r_06_1" />
       </list>
     </recent_temporary>
@@ -148,29 +192,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="233" key="#dz_6_2/0.0.1920.1040@0.0.1920.1040" timestamp="1579850020662" />
-    <state width="1661" height="302" key="GridCell.Tab.0.bottom" timestamp="1579852127338">
+    <state width="1898" height="342" key="GridCell.Tab.0.bottom" timestamp="1579876303880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1661" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579852127338" />
-    <state width="1661" height="302" key="GridCell.Tab.0.center" timestamp="1579852127338">
+    <state width="1898" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579876303880" />
+    <state width="1898" height="342" key="GridCell.Tab.0.center" timestamp="1579876303880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1661" height="302" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579852127338" />
-    <state width="1661" height="302" key="GridCell.Tab.0.left" timestamp="1579852127338">
+    <state width="1898" height="342" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579876303880" />
+    <state width="1898" height="342" key="GridCell.Tab.0.left" timestamp="1579876303880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1661" height="302" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579852127337" />
-    <state width="1661" height="302" key="GridCell.Tab.0.right" timestamp="1579852127338">
+    <state width="1898" height="342" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579876303880" />
+    <state width="1898" height="342" key="GridCell.Tab.0.right" timestamp="1579876303880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1661" height="302" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579852127338" />
+    <state width="1898" height="342" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579876303880" />
+    <state width="1898" height="342" key="GridCell.Tab.1.bottom" timestamp="1579876303880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579876303880" />
+    <state width="1898" height="342" key="GridCell.Tab.1.center" timestamp="1579876303880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579876303880" />
+    <state width="1898" height="342" key="GridCell.Tab.1.left" timestamp="1579876303880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579876303880" />
+    <state width="1898" height="342" key="GridCell.Tab.1.right" timestamp="1579876303880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1898" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579876303880" />
     <state x="417" y="250" key="SettingsEditor" timestamp="1579850048600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="417" y="250" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579850048600" />
-    <state x="612" y="442" key="com.intellij.ide.util.TipDialog" timestamp="1579858264048">
+    <state x="612" y="442" key="com.intellij.ide.util.TipDialog" timestamp="1579872212833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="612" y="442" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579858264048" />
+    <state x="612" y="442" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579872212833" />
   </component>
 </project>

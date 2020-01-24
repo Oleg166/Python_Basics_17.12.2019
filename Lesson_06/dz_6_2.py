@@ -13,4 +13,5 @@ class Road():
         print(str(int(l * w * 25 * 0.05)) + " т")
 
 a = Road(20, 5000)
-print(a.__init__(20, 5000))
+
+# print(a.__init__(20, 5000))
