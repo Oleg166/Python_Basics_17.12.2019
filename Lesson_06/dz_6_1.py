@@ -25,7 +25,7 @@ class TrafficLight():
         elif color == 'green' and self.__color == 'yellow':
             self.__color = color
             print('горит зеленый')
-            time.sleep(5)
+            time.sleep(5) 
         else:
             print('Ошибка последовательности')
 a = TrafficLight()
