@@ -10,7 +10,7 @@ for j in content:
     b = j.split()
     if float(b[1]) < 20000:
         print(b[0])
-print("\nСредняя величина дохода сотрудников: ")
+print("\n.....Средняя величина дохода сотрудников: ")
 c = []
 result = 0
 for i in content:
