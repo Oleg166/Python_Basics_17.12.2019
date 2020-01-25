@@ -9,8 +9,6 @@
 from time import sleep
 from itertools import cycle
 
-
-
 class TrafficLight():
     def __init__(self):
         self.__color = None
