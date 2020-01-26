@@ -4,14 +4,17 @@
 для покрытия одного кв метра дороги асфальтом, толщиной в 1 см*число см толщины полотна. Проверить работу метода.
 Например: 20м*5000м*25кг*5см = 12500 т
 """
-class Road():
-    _length = 0
-    _width = 0
-    def __init__(self, l, w):
-        self._length = l
-        self._width = w
-        print(str(int(l * w * 25 * 0.05)) + " т")
+
+
+class Road:
+    def __init__(self, length, width):
+        self._length = length
+        self._width = width
+
+    def calc(self):
+        result = int(self._length * self._width * 25 * 5 / 1000)
+        return str(result) + " т"
+
 
 a = Road(20, 5000)
-
-# print(a.__init__(20, 5000))
+print(a.calc())
