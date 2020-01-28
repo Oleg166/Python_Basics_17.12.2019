@@ -33,7 +33,8 @@ class Matrix:
 
 matr_1 = Matrix([[1, 2, 3], [4, 5, 6]])
 matr_2 = Matrix([[10, 20, 30], [40, 50, 60]])
+matr_3 = Matrix([[1, 1, 1], [1, 1, 1], [1, 1, 1]])
 print(matr_1)
 print(matr_2)
-matr_3 = matr_1 + matr_2
-print(matr_3)
+matr_4 = matr_1 + matr_2 + matr_3
+print(matr_4)

@@ -32,7 +32,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dz_7_3">
+  <component name="RunManager" selected="Python.dz_7_1">
     <configuration name="12345" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Lesson_07" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,10 +119,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dz_7_1" />
+        <item itemvalue="Python.dz_7_2" />
         <item itemvalue="Python.dz_7_3" />
         <item itemvalue="Python.12345" />
-        <item itemvalue="Python.dz_7_2" />
-        <item itemvalue="Python.dz_7_1" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

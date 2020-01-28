@@ -21,8 +21,8 @@ class Clothes:
             return round(2 * self.n + 0.3, 2)
 
 
-coat_1 = Clothes('серое', 'пальто', 46)
+coat_1 = Clothes('серое', 'пальто', 45)
 print(f'Расход ткани на одежду {coat_1.name} {coat_1.type} составляет {coat_1.calc()} м.')
-suit_1 = Clothes('белый', 'костюм', 50)
+suit_1 = Clothes('белый', 'костюм', 170)
 print(f'Расход ткани на одежду {suit_1.name} {suit_1.type} составляет {suit_1.calc()} м.')
 print(f'Общий расход ткани составляет {coat_1.calc() + suit_1.calc()} м.')
