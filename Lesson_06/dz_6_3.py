@@ -5,26 +5,27 @@ income (доход). Последний атрибут должен быть з�
 Проверить работу примера на реальных данных (создать экземпляры класса Position, передать данные, проверить значения
 атрибутов, вызвать методы экземпляров)."""
 
-class Worker():
-    name = "name"
-    surname = "surname"
-    position = "position"
-    _income = {"wage": 0, "bonus": 0}
-    def __init__(self, n, s, p, w, b):
-        self.name = n
-        self.surname = s
-        self.position = p
-        self._income = {"wage": w, "bonus": b}
-        # print(f"Имя работника: {n}\nФамилия работника: {s}\nДолжность работника: {p}\nОклад работника: {w}\nПремия работника: {b}")
+
+class Worker:
+    def __init__(self, name, surname, position, wage, bonus):
+        self.name = name
+        self.surname = surname
+        self.position = position
+        self._income = {"wage": wage, "bonus": bonus}
+
 
 class Position(Worker):
-    def get_full_name(self, n, s, p, w, b):
-        print(Worker.name + Worker.surname)
-    def get_total_income(self):
-        pass
+    def get_full_name(self):
+        return self.name + " " + self.surname
 
-# w_1 = Worker("Вася", "Пупкин", "Директор", 15000, 5000)
-# w_2 = Worker("Иннокентий", "Сидоров", "Заместитель директора", 10000, 2000)
-# w_1 = Position("Вася", "Пупкин", "Директор", 15000, 5000)
-w_1 = Worker()
-print(w_1.get_full_name("Вася", "Пупкин", "Директор", 15000, 5000))
+    def get_total_income(self):
+        result = self._income.setdefault("wage") + self._income.setdefault("bonus")
+        return f"Полный доход сотрудника {self.name} {self.surname} составляет {result}."
+
+
+w_1 = Position("Вася", "Пупкин", "Директор", 15000, 5000)
+w_2 = Position("Иннокентий", "Сидоров", "Заместитель директора", 10000, 2000)
+print(w_1.get_full_name())
+print(w_2.get_full_name())
+print(w_1.get_total_income())
+print(w_2.get_total_income())

@@ -6,16 +6,16 @@
 Задачу можно усложнить, реализовав проверку порядка режимов, и при его нарушении выводить соответствующее сообщение и
 завершать скрипт.
 """
-from time import sleep
+import time
 from itertools import cycle
 
 
-
-class TrafficLight():
+class TrafficLight:
     def __init__(self):
-        self.__color = None
+        self.__color = 'flashing yellow'
+
     def running(self, color):
-        if color == 'red' and (self.__color == 'green' or self.__color == None):
+        if color == 'red' and (self.__color == 'green' or self.__color == 'flashing yellow'):
             self.__color = color
             print('горит красный')
             time.sleep(7)
@@ -28,18 +28,14 @@ class TrafficLight():
             print('горит зеленый')
             time.sleep(5) 
         else:
-            print('Ошибка последовательности')
-a = TrafficLight()
-a.running('red')
-a.running('yellow')
-a.running('green')
-a.running('red')
-a.running('yellow')
-a.running('green')
-a.running("yellow")
-"""
-c = 0
-for el in cycle(print(TrafficLight())):
-    if c > 2:
-        break
-    c += 1"""
+            print('Ошибка порядка режимов светофора')
+
+
+svetofor = TrafficLight()
+svetofor.running('red')
+svetofor.running('yellow')
+svetofor.running('green')
+svetofor.running('red')
+svetofor.running('yellow')
+svetofor.running('green')
+svetofor.running("yellow")
