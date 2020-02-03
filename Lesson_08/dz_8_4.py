@@ -7,11 +7,11 @@
 class Sklad:
     """Описывает склад. category - категория складируемой продукции, count - количество"""
     def __init__(self, category, count):
-        self.name = category
+        self.category = category
         self.count = count
 
 
-class OrgTechnik(Sklad):
+class OrgTechnik:
     """Описывает оргтехнику. name - название, sn - серийный номер, price - цена"""
     def __init__(self, name, sn, price):
         self.name = name
@@ -38,7 +38,3 @@ class Kseroks(OrgTechnik):
     def __init__(self, size, mfu):
         self.size = size
         self.mfu = mfu
-
-
-scan_1 = Scaner(400, 'планшетный')
-print(scan_1)
