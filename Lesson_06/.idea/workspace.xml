@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8db230f8-9a89-4133-a1de-065829677e7e" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,20 +26,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson_05" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson_08" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.dz_6_2">
     <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -212,13 +199,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dz_6_1" />
-      <item itemvalue="Python.dz_6_3" />
       <item itemvalue="Python.123" />
+      <item itemvalue="Python.dz_6_1" />
       <item itemvalue="Python.dz_6_2" />
-      <item itemvalue="Python.r_06_1" />
-      <item itemvalue="Python.dz_6_5" />
+      <item itemvalue="Python.dz_6_3" />
       <item itemvalue="Python.dz_6_4" />
+      <item itemvalue="Python.dz_6_5" />
+      <item itemvalue="Python.r_06_1" />
     </list>
     <recent_temporary>
       <list>
@@ -229,6 +216,18 @@
         <item itemvalue="Python.r_06_1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -265,6 +264,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="233" key="#dz_6_2/0.0.1920.1040@0.0.1920.1040" timestamp="1579850020662" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1580716868959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580716868959" />
     <state width="1898" height="342" key="GridCell.Tab.0.bottom" timestamp="1579876303880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,9 +304,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="417" y="250" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579850048600" />
-    <state x="612" y="442" key="com.intellij.ide.util.TipDialog" timestamp="1579872212833">
+    <state x="612" y="442" key="com.intellij.ide.util.TipDialog" timestamp="1580716859198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="612" y="442" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579872212833" />
+    <state x="612" y="442" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580716859198" />
   </component>
 </project>
