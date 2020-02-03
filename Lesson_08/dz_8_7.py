@@ -34,13 +34,7 @@ numeric_1 = Complex(5, -3)
 numeric_2 = Complex(-1, 2)
 print(numeric_1)
 print(numeric_2)
-numeric_3 = numeric_1+numeric_2
-print(numeric_3)
-numeric_4 = numeric_1 + numeric_3
-print(numeric_4)
-numeric_4 = numeric_1-numeric_2
-numeric_5 = numeric_2-numeric_1
-print(numeric_4)
-print(numeric_5)
-numeric_6 = numeric_1*numeric_2
-print(numeric_6)
+print(numeric_1+numeric_2)
+print(numeric_1-numeric_2)
+print(numeric_2-numeric_1)
+print(numeric_1*numeric_2)
